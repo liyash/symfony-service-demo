@@ -1,5 +1,5 @@
 <?php
-namespace App\Service;
+namespace Submodule\Service;
 
 class GreetingService
 {
