@@ -1,5 +1,5 @@
 <?php
-namespace Submbodule\Controller;
+namespace Submodule\Controller;
 
 use Submbodule\Service\GreetingService;
 use Symfony\Component\HttpFoundation\Response;
