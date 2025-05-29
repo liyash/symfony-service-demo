@@ -1,0 +1,14 @@
+{
+    "name": "backend/availio-bundle",
+    "description": "Availio Bundle for Symfony",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Backend\\AvailioBundle\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": "^6.0|^7.0"
+    }
+}

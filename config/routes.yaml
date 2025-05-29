@@ -3,3 +3,9 @@ controllers:
         path: ../src/Controller/
         namespace: Submodule\Controller
     type: attribute
+
+availio_controllers:
+    resource:
+        path: ../bundles/Backend/AvailioBundle/src/Controller/
+        namespace: Backend\AvailioBundle\Controller
+    type: attribute
