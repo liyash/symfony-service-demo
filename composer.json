@@ -26,14 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/",
-            "Submodule\\": "src/",
-            "Backend\\AvailioBundle\\": "bundles/Backend/AvailioBundle/src/"
+            "Availio\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "Availio\\Tests\\": "tests/"
         }
     },
     "replace": {

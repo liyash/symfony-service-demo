@@ -1,5 +1,5 @@
 <?php
-namespace Submodule\Service;
+namespace Availio\Service;
 
 class GreetingService
 {

@@ -1,7 +1,7 @@
 <?php
-namespace Submodule\Controller;
+namespace Availio\Controller;
 
-use Submodule\Service\GreetingService;
+use Availio\Service\GreetingService;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Availio;
 
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;
@@ -13,8 +13,7 @@ class Kernel extends BaseKernel
     {
         $bundles = [
             new \Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
-            // Other bundles
-            new \Backend\AvailioBundle\AvailioBundle(),
+            // Other core bundles if needed
         ];
         
         return $bundles;
