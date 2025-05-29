@@ -1,7 +1,7 @@
 <?php
 namespace Submodule\Controller;
 
-use Submbodule\Service\GreetingService;
+use Submodule\Service\GreetingService;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
