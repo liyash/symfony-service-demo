@@ -7,11 +7,9 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class GreetingController
 {
-    private GreetingService $greetingService;
 
-    public function __construct(GreetingService $greetingService)
+    public function __construct(private readonly GreetingService $greetingService)
     {
-        $this->greetingService = $greetingService;
     }
 
     #[Route('/hello/{name}', name: 'app_greet')]
